@@ -17,6 +17,7 @@ const PORT = process.env.PORT || 4000;
 app.use("/api/usuarios", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/proyectos", require("./routes/projects"));
+app.use("/api/tareas", require("./routes/tasks"));
 
 //Definir la pagina principal
 // app.get("/", (req, res) => {
